@@ -1,0 +1,11 @@
+name: Bug report
+description: Report incorrect reconciliation behavior
+body:
+  - type: textarea
+    id: reproduction
+    attributes: { label: Minimal reproduction }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected result }
+    validations: { required: true }

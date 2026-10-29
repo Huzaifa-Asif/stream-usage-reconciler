@@ -1,0 +1,7 @@
+name: Feature request
+description: Propose a provider-neutral reconciliation capability
+body:
+  - type: textarea
+    id: need
+    attributes: { label: Developer need and evidence }
+    validations: { required: true }
